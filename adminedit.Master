@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminedit.master.cs" Inherits="BeautySalon.adminedit" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bs/js/bootstrap.bundle.min.js"></script>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bs/js/bootstrap.bundle.min.js"></script>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="jquery/jquery-3.6.1.js"></script>
+    <link href="jquery/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="jquery/jquery.dataTables.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+            <nav class="navbar navbar-expand-lg navbar-light" style="font-weight:500; font-size:26px">
+                <a class="navbar-brand" href="#">
+                 
+                    <img src="folder/card.jpg" width="200" height="100" />
+                    Shreya's Beauty Salon
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="homepage.aspx">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="staffdetails.aspx">View Staff Details</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="addstaff.aspx">Add Staff Details</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="feedadmin.aspx">View Feedback</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="viewappointment.aspx">View Appointments</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="deletestaff.aspx">Delete Staff</a>
+                        </li>
+                        <li class="nav-item active">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="delapp.aspx">Delete Appointments</a>
+                        </li>
+                            <a class="nav-link" href="homepage.aspx">Logout</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav me-auto">
+                        
+                        
+                        
+
+                       
+                        
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+
+
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+
+         <!-- Footer -->
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

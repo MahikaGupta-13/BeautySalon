@@ -1,4 +1,21 @@
-Beauty Salon Management System | .NET, SQL Server, Visual Studio
-Developed a robust web-based management system for a local beauty salon to streamline appointments, service selection, staff coordination, and customer feedback.
-The system features secure multi-role login (Admin, Staff, User), online service catalog with categorized offerings (Hair, Spa, Skin), appointment booking with billing, and a feedback module to enhance customer engagement. 
-It replaced a tedious manual process with a centralized digital solution, improving operational efficiency, transparency, and customer convenience. Technologies used include ASP.NET (C#), Microsoft SQL Server, and Visual Studio. 
+# Beauty Salon Management System
+A role-based salon management platform enabling users to book services, manage appointments, and provide feedback, while admins oversee staff schedules, services, and billing through a centralized system.
+
+## 🌟 Features
+- Service selection and booking by category
+- Appointment scheduling and history tracking
+- Admin dashboard for staff, services, and billing
+- Feedback and contact forms for client interaction
+
+## 📂 Modules
+- **User Panel**: Browse services, book appointments, give feedback
+- **Admin Panel**: Manage users, services, appointments, staff, and billing
+- **Staff Panel**: View schedules, handle assigned appointments
+
+## 📄 Documentation
+[View Full Project Documentation (PDF)](BeautySalon_Documentation.pdf)
+
+## 🛠 Technologies Used
+- .NET Framework
+- SQL Server
+- Visual Studio

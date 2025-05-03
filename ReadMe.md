@@ -12,10 +12,10 @@ A role-based salon management platform enabling users to book services, manage a
 - **Admin Panel**: Manage users, services, appointments, staff, and billing
 - **Staff Panel**: View schedules, handle assigned appointments
 
-## 📄 Documentation
-[View Full Project Documentation (PDF)](BeautySalon_Documentation.pdf)
-
 ## 🛠 Technologies Used
 - .NET Framework
 - SQL Server
 - Visual Studio
+
+## 📄 Documentation
+[View Full Project Documentation (PDF)](BeautySalon_Documentation.pdf)
